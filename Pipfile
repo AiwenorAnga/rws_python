@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+bs4 = "*"
+schedule = "*"
+sqlalchemy = "*"
+psycopg2 = "*"
+flask = "*"
+pytest-mock = "*"
+pytest-catchlog = "*"
+flask-cors = "*"
+validators = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
